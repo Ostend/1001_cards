@@ -1,0 +1,3 @@
+[submodule "1001_cards"]
+	path = 1001_cards
+	url = https://github.com/Ostend/1001_cards.git

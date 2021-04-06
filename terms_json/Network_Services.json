@@ -1,0 +1,1472 @@
+[
+  {
+    "Services_ID": 1,
+    "Terms": "What is IPS?",
+    "Definitions": "Inline security device that monitors suspicious network and/or system traffic and reacts in real time to block it.",
+    "Concept_ID": 37
+  },
+  {
+    "Services_ID": 2,
+    "Terms": "What is the purpose of IPS?",
+    "Definitions": "To monitor and block unwanted activities",
+    "Concept_ID": 37
+  },
+  {
+    "Services_ID": 3,
+    "Terms": "What is IDS?",
+    "Definitions": "System that monitors and checks network for unwanted activities and alert administrators if something suspicious happens, but does not take action",
+    "Concept_ID": 38
+  },
+  {
+    "Services_ID": 4,
+    "Terms": "What is NIDS?",
+    "Definitions": "Network based Intrusion Detection Systems",
+    "Concept_ID": 38
+  },
+  {
+    "Services_ID": 5,
+    "Terms": "What is HIDS?",
+    "Definitions": "Host based Intrusion Detection Services",
+    "Concept_ID": 38
+  },
+  {
+    "Services_ID": 6,
+    "Terms": "What does UTM stand for?",
+    "Definitions": "Unified Threat Management",
+    "Concept_ID": 29
+  },
+  {
+    "Services_ID": 7,
+    "Terms": "What is the function of a UTM",
+    "Definitions": "Type of network hardware appliance, virtual appliance, or cloud service that protects from security threats by combining and integrating multiple security services and features.",
+    "Concept_ID": 29
+  },
+  {
+    "Services_ID": 8,
+    "Terms": "What does UTM do?",
+    "Definitions": "A type of network hardware, virtual or cloud appliance that protects businesses from security threats in a simplified way by combining and integrating multiple security services and features. Could be a combination of firewall, IPS, and antivirus.",
+    "Concept_ID": 29
+  },
+  {
+    "Services_ID": 9,
+    "Terms": "What can be used to assign priority to certain types of network traffic?",
+    "Definitions": "QoS",
+    "Concept_ID": 29
+  },
+  {
+    "Services_ID": 10,
+    "Terms": "What does DLP stand for?",
+    "Definitions": "Data Loss Prevention",
+    "Concept_ID": 29
+  },
+  {
+    "Services_ID": 11,
+    "Terms": "How is DLP used?",
+    "Definitions": "It is used to classify and protect confidential and critical data. You can create rules within the software to prevent users from sharing particular types of data.",
+    "Concept_ID": 29
+  },
+  {
+    "Services_ID": 12,
+    "Terms": "What does SLA stand for?",
+    "Definitions": "Service Level Agreement",
+    "Concept_ID": 29
+  },
+  {
+    "Configuration_ID": 1,
+    "Terms": "What are some examples of encryption protocols VPNs use?",
+    "Definitions": "IPsec, SSL/TLS, tunneling.",
+    "Concept_ID": 43
+  },
+  {
+    "Configuration_ID": 2,
+    "Terms": "Unifies Threat Management",
+    "Definitions": "What does UTM stand for?",
+    "Concept_ID": 29
+  },
+  {
+    "Configuration_ID": 3,
+    "Terms": "What is a Class A network?",
+    "Definitions": "First octet ranges from 0-127. Subnet mask: 255.0.0.0",
+    "Concept_ID": 48
+  },
+  {
+    "Configuration_ID": 4,
+    "Terms": "What is a Class B network?",
+    "Definitions": "First octet ranges from 128-191. Subnet mask: 255.255.0.0",
+    "Concept_ID": 48
+  },
+  {
+    "Configuration_ID": 5,
+    "Terms": "What is a Class C network?",
+    "Definitions": "First octet ranges from 192-223. Subnet mask: 255.255.255.0",
+    "Concept_ID": 48
+  },
+  {
+    "Configuration_ID": 6,
+    "Terms": "What is a Class D network?",
+    "Definitions": "First octet ranges from 224-239",
+    "Concept_ID": 48
+  },
+  {
+    "Configuration_ID": 7,
+    "Terms": "What is a Class E network?",
+    "Definitions": "First octet ranges from 240-254",
+    "Concept_ID": 48
+  },
+  {
+    "Configuration_ID": 8,
+    "Terms": "What are the two components of an IPv4 address?",
+    "Definitions": "The Network and Host ID-> together they make up the 32bit address",
+    "Concept_ID": 48
+  },
+  {
+    "Configuration_ID": 9,
+    "Terms": "How are IPv6 addresses written?",
+    "Definitions": "32 hexadecimal digits, broken up into 8 groups of 4 that are separated by colons.",
+    "Concept_ID": 48
+  },
+  {
+    "Configuration_ID": 10,
+    "Terms": "What are the two components of the IPv6 address?",
+    "Definitions": "The first 64bits are the network prefix and the last 64bits are the device identifier. Similar to the IPv4 network and host ID",
+    "Concept_ID": 48
+  },
+  {
+    "Configuration_ID": 11,
+    "Terms": "What does ARP stand for?",
+    "Definitions": "Address Resolution Protocol",
+    "Concept_ID": 48
+  },
+  {
+    "Configuration_ID": 12,
+    "Terms": "What does ARP do?",
+    "Definitions": "Used to find the physical address corresponding to a local IP address (IPv4)",
+    "Concept_ID": 48
+  },
+  {
+    "Configuration_ID": 13,
+    "Terms": "What does NDP stand for?",
+    "Definitions": "Neighbor Discovery Protocol",
+    "Concept_ID": 48
+  },
+  {
+    "Configuration_ID": 14,
+    "Terms": "What does the NDP do?",
+    "Definitions": "Used to find the physical address corresponding to an IP address (IPv6)",
+    "Concept_ID": 48
+  },
+  {
+    "Configuration_ID": 15,
+    "Terms": "What does FQDN stand for>",
+    "Definitions": "Fully Qualified DOmain Name",
+    "Concept_ID": 49
+  },
+  {
+    "Configuration_ID": 16,
+    "Terms": "How are domain names organized?",
+    "Definitions": "Arranged in a logical hierarchy. An FQDN contains multiple case-insensitive text fields separated by dots. 1. Host 2. Subdomain 3. Domain 4. TLD",
+    "Concept_ID": 49
+  },
+  {
+    "Configuration_ID": 17,
+    "Terms": "What is TLD?",
+    "Definitions": "Top-Level Domain: the root category of the domain in an FQDN. ex: .com",
+    "Concept_ID": 49
+  },
+  {
+    "Configuration_ID": 18,
+    "Terms": "What is the Domain?",
+    "Definitions": "Represents an organization. google in google.com",
+    "Concept_ID": 49
+  },
+  {
+    "Configuration_ID": 19,
+    "Terms": "In FQDNs what is the subdomain?",
+    "Definitions": "An optional level used for categories within the organization.",
+    "Concept_ID": 49
+  },
+  {
+    "Configuration_ID": 20,
+    "Terms": "In FQDNs, what is the Hostname?",
+    "Definitions": "The name of the specific host within the organization",
+    "Concept_ID": 49
+  },
+  {
+    "Configuration_ID": 21,
+    "Terms": "What does PQDN stand for?",
+    "Definitions": "Partially Qualified Domain Name",
+    "Concept_ID": 49
+  },
+  {
+    "Configuration_ID": 22,
+    "Terms": "What is a static hosts file?",
+    "Definitions": "A files that contains a list of host mappings.",
+    "Concept_ID": 49
+  },
+  {
+    "Configuration_ID": 23,
+    "Terms": "Describe the process that happens when a host sends a packet to a different remote host on its subnet",
+    "Definitions": "The first host will look up in its ARP cache to see if the second hosts MAC address is known. If not, the first host will use an ARP request using the second hosts IP address to find its MAC address. Afterwards, both hosts add each other to their ARP caches.",
+    "Concept_ID": 49
+  },
+  {
+    "Configuration_ID": 24,
+    "Terms": "Describe the address resolution process that happens when you want to connect to a webpage over the internet",
+    "Definitions": "Your computer will look for the site IP address in the DNS cache. If it is not there, it will send a DNS request to the DNS server. Server will check its own address records and will consult higher level servers if necessary. It will send the page IP address to your computer , making a connection using the default route. Then, your computer will add it to the DNS cache.",
+    "Concept_ID": 49
+  },
+  {
+    "Configuration_ID": 25,
+    "Terms": "What does DHCP stand for?",
+    "Definitions": "Dynamic Host Configuration Protocol",
+    "Concept_ID": 49
+  },
+  {
+    "Network_Devices": 1,
+    "Definitions": "The hardware that makes the connection to a network",
+    "Terms": "NIC",
+    "Concept_ID": 22
+  },
+  {
+    "Network_Devices": 2,
+    "Definitions": "Specific to the type of network you are connecting to. Hardware that is on, or built into motherboard",
+    "Terms": "NIC",
+    "Concept_ID": 22
+  },
+  {
+    "Network_Devices": 3,
+    "Definitions": "Receives, regenerates, and resends the signal to another interface",
+    "Terms": "Repeater",
+    "Concept_ID": 23
+  },
+  {
+    "Network_Devices": 4,
+    "Definitions": "Can extend the length of a copper/fiber network",
+    "Terms": "Repeater",
+    "Concept_ID": 23
+  },
+  {
+    "Network_Devices": 5,
+    "Definitions": "Can convert one network media to another",
+    "Terms": "Repeater",
+    "Concept_ID": 23
+  },
+  {
+    "Network_Devices": 6,
+    "Definitions": "Information sent from one interface on this is automatically repeated to every other interface",
+    "Terms": "Hub",
+    "Concept_ID": 24
+  },
+  {
+    "Network_Devices": 7,
+    "Definitions": "Repeater only repeats out a single interface. Hub repeats on many simultaneously",
+    "Terms": "What is a difference between repeater and hub?",
+    "Concept_ID": 24
+  },
+  {
+    "Network_Devices": 8,
+    "Definitions": "Make forwarding decisions based on MAC addresses",
+    "Terms": "How do Hubs make forwarding decisions?",
+    "Concept_ID": 25
+  },
+  {
+    "Network_Devices": 9,
+    "Definitions": "Can move to different network topologies. EX: moving from Ethernet to a WAN network.",
+    "Terms": "Describe Bridges capabilities in terms of connecting to different physical networks",
+    "Concept_ID": 25
+  },
+  {
+    "Network_Devices": 10,
+    "Definitions": "Looks at destination MAC address. Determines what interface the destination MAC address resides on. Sends the traffic to only the interface it is destined.",
+    "Terms": "Explain the cycle of how a Bridge sends data",
+    "Concept_ID": 25
+  },
+  {
+    "Network_Devices": 11,
+    "Definitions": "Like a bridge, it looks at information of MAC address and sends information to the appropriate interface",
+    "Terms": "How does a switch send data?",
+    "Concept_ID": 26
+  },
+  {
+    "Network_Devices": 12,
+    "Definitions": "The switching is done in a hardware called ASIC- application specific integrated circuit",
+    "Terms": "Why can a switch scale up to hundreds of interfaces on a single switch?",
+    "Concept_ID": 26
+  },
+  {
+    "Network_Devices": 13,
+    "Definitions": "Not much configuration- Plug and play. No VLAN configurations. ",
+    "Terms": "What is an unmanaged switch?",
+    "Concept_ID": 26
+  },
+  {
+    "Network_Devices": 14,
+    "Definitions": "Configure different VLANS on different interfaces. Can configure traffic prioritization. Redundancy support. Uses SNMP. Allows port mirroring.",
+    "Terms": "What is a managed switch?",
+    "Concept_ID": 26
+  },
+  {
+    "Network_Devices": 15,
+    "Definitions": "Can connect different types of topology",
+    "Terms": "Can a router connect to different network topologies?",
+    "Concept_ID": 27
+  },
+  {
+    "Network_Devices": 16,
+    "Definitions": "Stand alone or can be integrated into switches (layer-3 or multi-layer switches.)",
+    "Terms": "How can a router be represented?",
+    "Concept_ID": 27
+  },
+  {
+    "Network_Devices": 17,
+    "Definitions": "Extends a wired network onto a wireless network",
+    "Terms": "How does a WAP function?",
+    "Concept_ID": 28
+  },
+  {
+    "Network_Devices": 18,
+    "Definitions": "Makes forwarding decisions based on MAC address.",
+    "Terms": "How does a WAP also act as a bridge?",
+    "Concept_ID": 28
+  },
+  {
+    "Network_Devices": 19,
+    "Definitions": "Filters traffic based on UDP/TCP port numbers.",
+    "Terms": "How does a firewall control traffic?",
+    "Concept_ID": 29
+  },
+  {
+    "Network_Devices": 20,
+    "Definitions": "Capabilities to support encrypted tunnels",
+    "Terms": "How can a firewall allow access from offsite?",
+    "Concept_ID": 29
+  },
+  {
+    "Network_Devices": 21,
+    "Definitions": "Firewalls can act as a router",
+    "Terms": "What is meant by an OSI layer 3 device when referencing routers?",
+    "Concept_ID": 29
+  },
+  {
+    "Network_Devices": 22,
+    "Definitions": "Switch:",
+    "Terms": "What is a device that will forward data only to the intended destination using the MAC address of the devices?",
+    "Concept_ID": 26
+  },
+  {
+    "Network_Devices": 23,
+    "Definitions": "Hubs",
+    "Terms": "A simple device that has no decision making capabilities. Will broadcast data to any and all ports",
+    "Concept_ID": 24
+  },
+  {
+    "Network_Devices": 24,
+    "Definitions": "Routers",
+    "Terms": "Highly intelligent devices that make decision based on IP addresses. Connects multiple network segments.",
+    "Concept_ID": 27
+  },
+  {
+    "Network_Devices": 25,
+    "Definitions": "Routers are highly intelligent, make decisions based on IP addresses. Hubs have no decision making capabilities, just broadcast data on all interfaces. Switches forward data based on MAC addresses.",
+    "Terms": "What is the difference between \"routers, switches, and hubs\"?",
+    "Concept_ID": 26
+  },
+  {
+    "Network_Devices": 26,
+    "Definitions": "Switches",
+    "Terms": "Forward data based on MAC addresses. Send data to the correct port, and only that port. The number of devices on a LAN does not affect the performance of this",
+    "Concept_ID": 26
+  },
+  {
+    "Network_Devices": 27,
+    "Definitions": "1. Physical Layer 2. Datalink layer 3. Network Layer 4. Transport Layer 5. Session Layer 6. Presentation Layer 7. Application Layer",
+    "Terms": "List the layers of the OSI model",
+    "Concept_ID": 35
+  },
+  {
+    "Network_Devices": 28,
+    "Definitions": "Layer 1 represents the Physical Layer. The Hub and Repeater work on Layer 1.",
+    "Terms": "Which works on Layer 1 of the OSI model: Repeater, Hub, Switch, Router?",
+    "Concept_ID": 35
+  },
+  {
+    "Network_Devices": 29,
+    "Definitions": "Layer 3 represents the Network Layer. The router works on layer 3.",
+    "Terms": "Which works on Layer 3 of the OSI model: Repeater, Hub, Switch, Router?",
+    "Concept_ID": 35
+  },
+  {
+    "Network_Devices": 30,
+    "Definitions": "Layer 2 represents the Datalink layer. Switches work on layer 2.",
+    "Terms": "Which works on Layer 2 of the OSI model: Repeater, Hub, Switch, Router?",
+    "Concept_ID": 35
+  },
+  {
+    "Network_Devices": 31,
+    "Definitions": "1. Application Layer 2. Transport Layer 3. Internet Layer 4. Network Interface Layer.",
+    "Terms": "What are the layers of the TCP/IP model?",
+    "Concept_ID": 42
+  },
+  {
+    "Network_Devices": 32,
+    "Definitions": "They can only join devices that are entirely compatible. All devices must be Ethernet, as well as operating at the same speeds.",
+    "Terms": "What is a compatibility disadvantage to using hubs?",
+    "Concept_ID": 24
+  },
+  {
+    "Network_Devices": 33,
+    "Definitions": "A MAC address",
+    "Terms": "What is also known as a physical address?",
+    "Concept_ID": 25
+  },
+  {
+    "Network_Devices": 34,
+    "Definitions": "IP addresses",
+    "Terms": "What are also known as logical addresses?",
+    "Concept_ID": 27
+  },
+  {
+    "Network_Devices": 35,
+    "Definitions": "A device that both encodes symbols for transmission and decodes them from received signals.",
+    "Terms": "What is a modem?",
+    "Concept_ID": 30
+  },
+  {
+    "Network_Devices": 36,
+    "Definitions": "It converts digital data into analogue signals that can be sent over a traditional telephone network",
+    "Terms": "How does a dial-up modem send data?",
+    "Concept_ID": 31
+  },
+  {
+    "Network_Devices": 37,
+    "Definitions": "Cable modems",
+    "Terms": "Which type of modem plugs into cable television networks?",
+    "Concept_ID": 30
+  },
+  {
+    "Network_Devices": 38,
+    "Definitions": "DSL and dial-up  modems",
+    "Terms": "Which type of modems plug into phone lines?",
+    "Concept_ID": 31
+  },
+  {
+    "Network_Devices": 39,
+    "Definitions": "While they both plug into the phone lines, DSL is always on, so you do not need to connect everytime to use it. You can also use DSL and phone line at the same time as opposed to dial-up.",
+    "Terms": "What is the difference between DSL and dial-up modems?",
+    "Concept_ID": 31
+  },
+  {
+    "Features_ID": 1,
+    "Terms": "How is ISDN different than dial-up?",
+    "Definitions": "No modem is needed for analogue/digital conversion. It uses a terminal adapter as the network connection.",
+    "Concept_ID": 44
+  },
+  {
+    "Features_ID": 2,
+    "Terms": "What are some different types of ISDN?",
+    "Definitions": "BRI(Basic rate interference) and PRI(primary rate interface",
+    "Concept_ID": 44
+  },
+  {
+    "Features_ID": 3,
+    "Terms": "How does DSL transfer data?",
+    "Definitions": "DSL sends data over the same physical cables of a voice telephone or ISDN line without interfering with the telephone service.",
+    "Concept_ID": 45
+  },
+  {
+    "Features_ID": 4,
+    "Terms": "What is the difference between symmetric(SDSL) and asymmetric(ADSL)?",
+    "Definitions": "SDSL has the same bit rate in both directions. ADSL has higher bit rate in one direction than the other. Faster download/slower upload",
+    "Concept_ID": 45
+  },
+  {
+    "Features_ID": 5,
+    "Terms": "Why does cable broadband not use a DSL filter?",
+    "Definitions": "The cable modem instead uses different channels than the TV service. Uses DOCSIS standards",
+    "Concept_ID": 46
+  },
+  {
+    "Features_ID": 6,
+    "Terms": "What does DOCSIS stand for?",
+    "Definitions": "Data Over Cable Service Interface Specification",
+    "Concept_ID": 46
+  },
+  {
+    "Features_ID": 7,
+    "Terms": "What are the different types of Fiber-optic Internet approaches?",
+    "Definitions": "FTTN, FTTC, FTTP",
+    "Concept_ID": 47
+  },
+  {
+    "Features_ID": 8,
+    "Terms": "What is FTTN?",
+    "Definitions": "Fiber to the Neighborhood-the ONT is a a cabinet that serves the neighborhood",
+    "Concept_ID": 47
+  },
+  {
+    "Features_ID": 9,
+    "Terms": "What is FTTC?",
+    "Definitions": "Fiber to the Curb-the ONT serves a smaller area than FTTN.",
+    "Concept_ID": 47
+  },
+  {
+    "Features_ID": 10,
+    "Terms": "What is FTTP?",
+    "Definitions": "Fiber to the Premises-The ONT is in the building itself. Can be subdivided into: FTTH and FTTB.",
+    "Concept_ID": 47
+  },
+  {
+    "Features_ID": 11,
+    "Terms": "What are the differences between Dial-up, ISDN and DSL equipment?",
+    "Definitions": "1. Dial-up: Requires and analogue modem, works over any analogue telephone line. 2. ISDN: Uses one or more channels of a digital phone line-> requires specialized digital terminal. 3. DSL: Uses a high frequency carrier signal over the same wire as an analogue or digital line. It needs a DSL modem and a location physically close to a telephone exchange.",
+    "Concept_ID": 45
+  },
+  {
+    "Features_ID": 12,
+    "Terms": "Which technology carries data as a secondary signal on an analogue phone line?",
+    "Definitions": "DSL",
+    "Concept_ID": 45
+  },
+  {
+    "Features_ID": 13,
+    "Terms": "What does WMN stand for?",
+    "Definitions": "Wireless Mesh Network",
+    "Concept_ID": 36
+  },
+  {
+    "Features_ID": 14,
+    "Terms": "How does WMN function?",
+    "Definitions": "Nodes communicate and relay communications as peers rather than individually connecting to a WAP as clients.",
+    "Concept_ID": 36
+  },
+  {
+    "SOHO_ID": 1,
+    "Terms": "Which cable type is used to connect a cable modem to a SOHO router?",
+    "Definitions": "Ethernet cable. Used to connect devices within a LAN.",
+    "Concept_ID": 39
+  },
+  {
+    "SOHO_ID": 2,
+    "Terms": "What does WEP stand for?",
+    "Definitions": "Wired Equivalent Privacy",
+    "Concept_ID": 39
+  },
+  {
+    "SOHO_ID": 3,
+    "Terms": "Why was WEP removed from the WiFi standards?",
+    "Definitions": "It uses RC4 encryption and was a weak key. Devices still support it only for compatibility reasons",
+    "Concept_ID": 39
+  },
+  {
+    "SOHO_ID": 4,
+    "Terms": "What does WPA stand for?",
+    "Definitions": "WiFi Protected Access",
+    "Concept_ID": 39
+  },
+  {
+    "SOHO_ID": 5,
+    "Terms": "How does WPA encrypt traffic?",
+    "Definitions": "By default it encrypts traffic using TKIP (Temporal Key Integrity Protocol)- a different implementation of the RC4 cipher. Encryption key is 128 bits.",
+    "Concept_ID": 39
+  },
+  {
+    "SOHO_ID": 6,
+    "Terms": "What does WPA2 stand for?",
+    "Definitions": "WiFi Protected Access 2- the final version of WPA",
+    "Concept_ID": 39
+  },
+  {
+    "SOHO_ID": 7,
+    "Terms": "How was WPA2 changed from WPA?",
+    "Definitions": "Mandatory support for 128 bit encryption using the AES cipher (Advances Encryption Standard instead of the RC4 cipher.",
+    "Concept_ID": 39
+  },
+  {
+    "SOHO_ID": 8,
+    "Terms": "Rank the Wi-Fi security measures from strongest to weakest",
+    "Definitions": "WPA2 with AES-> WPA with AES -> WPA with TKIP -> WEP.",
+    "Concept_ID": 39
+  },
+  {
+    "SOHO_ID": 9,
+    "Terms": "What is WPA-Personal?",
+    "Definitions": "Also called PSK (pre-shared Key). Uses a passphrase of 8-63 ASCII characters. Good for small networks with few users. Downside: all users use the same key.",
+    "Concept_ID": 39
+  },
+  {
+    "SOHO_ID": 10,
+    "Terms": "What is WPA-Enterprise?",
+    "Definitions": "Also known as 802.1x mode. Connecting clients must communicate to external authentication server with a username and password. Get full network access, but never see WPA key and cannot share it.",
+    "Concept_ID": 39
+  },
+  {
+    "SOHO_ID": 11,
+    "Terms": "What does WPS stand for?",
+    "Definitions": "WiFi protected Setup",
+    "Concept_ID": 39
+  },
+  {
+    "SOHO_ID": 12,
+    "Terms": "What is WEP?",
+    "Definitions": "WiFi Protected Setup: designed to make it easy for non-tech users to easily control network access. Builds on PSK mode, by also allowing the Key to be shared with new devices through methods like PIN, NFC and so on. Disadvantage: Easy to hack",
+    "Concept_ID": 39
+  },
+  {
+    "SOHO_ID": 13,
+    "Terms": "What is a SOHO routers?",
+    "Definitions": "A router that works as a multifunctional device, including a switch, firewall, and a DHCP server.",
+    "Concept_ID": 39
+  },
+  {
+    "SOHO_ID": 14,
+    "Terms": "In addition to built in switch, firewall, and DHCP server, what are some additional features a SOHO router may have?",
+    "Definitions": "These can also include WAP, VPN concentrator, broadband modem.. and many more.",
+    "Concept_ID": 39
+  },
+  {
+    "SOHO_ID": 15,
+    "Terms": "A networking technique through which a gateway transmits all incoming traffic of a specific port to the same port on any internal network node.",
+    "Definitions": "Port forwarding",
+    "Concept_ID": 39
+  },
+  {
+    "TCP_Terms_ID": 1,
+    "Concept_ID": 16,
+    "Terms": "What connection does UDP use?",
+    "Definitions": "connectionless- no formal open or close connection"
+  },
+  {
+    "TCP_Terms_ID": 2,
+    "Concept_ID": 16,
+    "Terms": "What is the reliability of UDP?",
+    "Definitions": "Unreliable delivery- no error recovery, no reordering of data"
+  },
+  {
+    "TCP_Terms_ID": 3,
+    "Concept_ID": 16,
+    "Terms": "UDP flow control?",
+    "Definitions": "No flow control, sender determines amount of data transmitted"
+  },
+  {
+    "TCP_Terms_ID": 4,
+    "Concept_ID": 16,
+    "Terms": "UDP port numbers?",
+    "Definitions": "Any number between 0 and 65,535"
+  },
+  {
+    "TCP_Terms_ID": 5,
+    "Concept_ID": 16,
+    "Terms": "What is the DNS udp port #?",
+    "Definitions": "udp/53"
+  },
+  {
+    "TCP_Terms_ID": 6,
+    "Concept_ID": 16,
+    "Terms": "What is the SMB port #?",
+    "Definitions": "udp/137/138/139"
+  },
+  {
+    "TCP_Terms_ID": 7,
+    "Concept_ID": 16,
+    "Terms": "What is the UDP AFP #?",
+    "Definitions": "udp/427"
+  },
+  {
+    "TCP_Terms_ID": 8,
+    "Concept_ID": 16,
+    "Terms": "What is the UDP DHCP?",
+    "Definitions": "UD/68"
+  },
+  {
+    "TCP_Terms_ID": 9,
+    "Concept_ID": 17,
+    "Terms": "What connection does TCP use?",
+    "Definitions": "connection-oriented"
+  },
+  {
+    "TCP_Terms_ID": 10,
+    "Concept_ID": 17,
+    "Terms": "What kind of delivery is TCP?",
+    "Definitions": "Reliable delivery"
+  },
+  {
+    "TCP_Terms_ID": 11,
+    "Concept_ID": 17,
+    "Terms": "In TCP, what does reliable delivery mean?",
+    "Definitions": "Recovery from errors, manage out of order messages/retransmissions"
+  },
+  {
+    "TCP_Terms_ID": 12,
+    "Concept_ID": 17,
+    "Terms": "TCP-what is the control of flow?",
+    "Definitions": "Flow control-receiver can manage how much data is sent"
+  },
+  {
+    "TCP_Terms_ID": 13,
+    "Concept_ID": 1,
+    "Terms": "What two ports does FTP use?",
+    "Definitions": "TCP/20 (active mode data), tcp/21(control"
+  },
+  {
+    "TCP_Terms_ID": 14,
+    "Concept_ID": 1,
+    "Terms": "Describe the FTP security",
+    "Definitions": "Can authenticates with username/password. Anonymous login"
+  },
+  {
+    "TCP_Terms_ID": 15,
+    "Concept_ID": 1,
+    "Terms": "FTP-what is full-featured functionality?",
+    "Definitions": "List, add, delete, rename (etc..) files available on a system"
+  },
+  {
+    "TCP_Terms_ID": 16,
+    "Concept_ID": 2,
+    "Terms": "What port does SSH use?",
+    "Definitions": "TCP/22"
+  },
+  {
+    "TCP_Terms_ID": 17,
+    "Concept_ID": 2,
+    "Terms": "What is SSH",
+    "Definitions": "Encrypted communication link."
+  },
+  {
+    "TCP_Terms_ID": 18,
+    "Concept_ID": 3,
+    "Terms": "Difference between Telnet and SSH?",
+    "Definitions": "Telnet is not secure like SSH. Telnet uses TCP/23 and SSH uses TCP/22"
+  },
+  {
+    "TCP_Terms_ID": 19,
+    "Concept_ID": 7,
+    "Terms": "What port does HTTPS use?",
+    "Definitions": "TCP/443"
+  },
+  {
+    "TCP_Terms_ID": 20,
+    "Concept_ID": 6,
+    "Terms": "What port does HTTP use?",
+    "Definitions": "TCP/80"
+  },
+  {
+    "TCP_Terms_ID": 21,
+    "Concept_ID": 1,
+    "Terms": "What Port does FTP use?",
+    "Definitions": "tcp/20, tcp/21"
+  },
+  {
+    "TCP_Terms_ID": 22,
+    "Concept_ID": 2,
+    "Terms": "What Port does SSH use?",
+    "Definitions": "tcp/22"
+  },
+  {
+    "TCP_Terms_ID": 23,
+    "Concept_ID": 3,
+    "Terms": "What Port does Telnet use?",
+    "Definitions": "tcp/23"
+  },
+  {
+    "TCP_Terms_ID": 24,
+    "Concept_ID": 4,
+    "Terms": "What Port does SMTP use?",
+    "Definitions": "tcp/25"
+  },
+  {
+    "TCP_Terms_ID": 25,
+    "Concept_ID": 5,
+    "Terms": "What Port does DNS use?",
+    "Definitions": "udp/53, tcp/53"
+  },
+  {
+    "TCP_Terms_ID": 26,
+    "Concept_ID": 6,
+    "Terms": "What Port does HTTP use?",
+    "Definitions": "tcp/80"
+  },
+  {
+    "TCP_Terms_ID": 27,
+    "Concept_ID": 7,
+    "Terms": "What Port does HTTPS use?",
+    "Definitions": "tcp/443"
+  },
+  {
+    "TCP_Terms_ID": 28,
+    "Concept_ID": 8,
+    "Terms": "What Port does POP3 use?",
+    "Definitions": "tcp/110"
+  },
+  {
+    "TCP_Terms_ID": 29,
+    "Concept_ID": 9,
+    "Terms": "What Port does IMAP4 use?",
+    "Definitions": "tcp/143"
+  },
+  {
+    "TCP_Terms_ID": 30,
+    "Concept_ID": 10,
+    "Terms": "What Port does RDP use?",
+    "Definitions": "tcp/3389"
+  },
+  {
+    "TCP_Terms_ID": 31,
+    "Concept_ID": 11,
+    "Terms": "What Port does SMB use?",
+    "Definitions": "tcp/445"
+  },
+  {
+    "TCP_Terms_ID": 32,
+    "Concept_ID": 12,
+    "Terms": "What Port does AFP use?",
+    "Definitions": "tcp/548"
+  },
+  {
+    "TCP_Terms_ID": 33,
+    "Concept_ID": 3,
+    "Terms": "What Port does DHCP use?",
+    "Definitions": "udp/67, udp/68"
+  },
+  {
+    "TCP_Terms_ID": 35,
+    "Concept_ID": 10,
+    "Terms": "What Layer the OSI does RDP port 3389 function on?",
+    "Definitions": "Layer 7- Application layer"
+  },
+  {
+    "TCP_Terms_ID": 36,
+    "Concept_ID": 17,
+    "Terms": "TCP is connection oriented. What does this mean?",
+    "Definitions": "TCP negotiates a virtual connection between two hosts. This connection always requires two-way communication."
+  },
+  {
+    "TCP_Terms_ID": 37,
+    "Concept_ID": 17,
+    "Terms": "TCP is considered reliable. What does this mean?",
+    "Definitions": "Guarantees that all data is successfully delivered to host. TCP handles discovering any failures and the resending the segments that failed"
+  },
+  {
+    "TCP_Terms_ID": 38,
+    "Concept_ID": 17,
+    "Terms": "TCP can correct errors. What does this mean?",
+    "Definitions": "A TCP contains a checksum which is used for error detection. Detected errors are corrected because the corrupted segments are discovered and resent"
+  },
+  {
+    "TCP_Terms_ID": 39,
+    "Concept_ID": 17,
+    "Terms": "TCP is considered to have flow control. What does this mean?",
+    "Definitions": "The remote host can regulate the rate of data flow."
+  },
+  {
+    "TCP_Terms_ID": 40,
+    "Concept_ID": 17,
+    "Terms": "TCP has sequencing capabilities. What does this mean?",
+    "Definitions": "When large transmissions are broken up into many segments, TCP guarantees they will be delivered in the correct sequence. The applications receiving the segments in turn do not reassemble fragmented transmissions."
+  },
+  {
+    "TCP_Terms_ID": 41,
+    "Concept_ID": 16,
+    "Terms": "Why would an application use UDP over TCP?",
+    "Definitions": "UDP is faster and more efficient. So, when speed matters over accuracy, UDP is better. Also, when only short messages are being sent or when the application layer is handling error correction and sequencing."
+  },
+  {
+    "TCP_Terms_ID": 42,
+    "Concept_ID": 17,
+    "Terms": "What are system ports?",
+    "Definitions": "Ports range from 0-1023. Assigned to the most universal TCP/IP standard applications."
+  },
+  {
+    "TCP_Terms_ID": 43,
+    "Concept_ID": 17,
+    "Terms": "What are user ports?",
+    "Definitions": "Ports range from 1024-49151. Assigned to applications that benefit from assigned port numbers, but are not widely used."
+  },
+  {
+    "TCP_Terms_ID": 44,
+    "Concept_ID": 17,
+    "Terms": "What are private ports?",
+    "Definitions": "Ports range from 49152-65535. Can be used for any purpose without registration. Usually used by private applications for temporary use."
+  },
+  {
+    "TCP_Terms_ID": 45,
+    "Concept_ID": 17,
+    "Terms": "List some remote access protocols and their ports",
+    "Definitions": "Telnet: TCP/23, SSH: TCP/22, RDP: TCP/3389, VNC: TCP/5900+N, HTTP: TCP/80, HTTPS: TCP/443, SNMP: UDP/161,161"
+  },
+  {
+    "TCP_Terms_ID": 46,
+    "Concept_ID": 17,
+    "Terms": "List some resource-sharing protocols and their ports",
+    "Definitions": "FTP: TCP/20,21, SMB: TCP/445, NFS: TCP/2049 UDP/2049, AFP: TCP/548, NetBIOS: TCP+UDP ports 137-139."
+  },
+  {
+    "TCP_Terms_ID": 47,
+    "Concept_ID": 17,
+    "Terms": "List some email protocols and their ports.",
+    "Definitions": "SMTP: TCP/25, POP: TCP/110, IMAP: TCP/143"
+  },
+  {
+    "TCP_Terms_ID": 48,
+    "Concept_ID": 17,
+    "Terms": "What ports does SSL use?",
+    "Definitions": "FOr IMAP(tcp/143)-> tcp/993). For POP3(tcp/110)-> tcp/995"
+  },
+  {
+    "Concept_ID": 1,
+    "Term_Name": "FTP",
+    "Term_Definition": "File Transfer Protocol",
+    "Term_ID": 1
+  },
+  {
+    "Concept_ID": 2,
+    "Term_Name": "SSH",
+    "Term_Definition": "Secure Shell- tcp/22",
+    "Term_ID": 1
+  },
+  {
+    "Concept_ID": 3,
+    "Term_Name": "Telnet",
+    "Term_Definition": "Telecommunication Network tcp/23",
+    "Term_ID": 1
+  },
+  {
+    "Concept_ID": 4,
+    "Term_Name": "SMTP",
+    "Term_Definition": "Simple Mail Transfer Protocol- tcp/25",
+    "Term_ID": 1
+  },
+  {
+    "Concept_ID": 5,
+    "Term_Name": "DNS",
+    "Term_Definition": "Domain Name System- udp/53",
+    "Term_ID": 1
+  },
+  {
+    "Concept_ID": 6,
+    "Term_Name": "HTTP",
+    "Term_Definition": "Hyper Text Transfer Protocol- tcp/80",
+    "Term_ID": 1
+  },
+  {
+    "Concept_ID": 7,
+    "Term_Name": "HTTPS",
+    "Term_Definition": "Hypertext Transfer Protocol - tcp/443",
+    "Term_ID": 1
+  },
+  {
+    "Concept_ID": 8,
+    "Term_Name": "POP",
+    "Term_Definition": "Post Office Protocol - tcp 110",
+    "Term_ID": 1
+  },
+  {
+    "Concept_ID": 9,
+    "Term_Name": "IMAP",
+    "Term_Definition": "Internet Message Access Protocol- tcp/143",
+    "Term_ID": 1
+  },
+  {
+    "Concept_ID": 10,
+    "Term_Name": "RDP",
+    "Term_Definition": "Remote Desktop Protocol- tcp-3389",
+    "Term_ID": 1
+  },
+  {
+    "Concept_ID": 11,
+    "Term_Name": "SMB",
+    "Term_Definition": "Server Message Block- udp/137/138/189, tcp/139, tcp/445",
+    "Term_ID": 1
+  },
+  {
+    "Concept_ID": 12,
+    "Term_Name": "AFP",
+    "Term_Definition": "Apple Filing Protocol- tcp/548/427, udp/427",
+    "Term_ID": 1
+  },
+  {
+    "Concept_ID": 13,
+    "Term_Name": "DHCP",
+    "Term_Definition": "Dynamic Host Configuration Protocol- udp/67/68",
+    "Term_ID": 1
+  },
+  {
+    "Concept_ID": 14,
+    "Term_Name": "LDAP",
+    "Term_Definition": "Lightweight Directory Access Protocol-tcp/389",
+    "Term_ID": 1
+  },
+  {
+    "Concept_ID": 15,
+    "Term_Name": "SNMP",
+    "Term_Definition": "Simple Network Management Protocol-udp/161/162",
+    "Term_ID": 1
+  },
+  {
+    "Concept_ID": 16,
+    "Term_Name": "UDP",
+    "Term_Definition": "User Datagram Protocol",
+    "Term_ID": 1
+  },
+  {
+    "Concept_ID": 17,
+    "Term_Name": "TCP",
+    "Term_Definition": "Transmission Control Protocol",
+    "Term_ID": 1
+  },
+  {
+    "Concept_ID": 18,
+    "Term_Name": "Server side: What makes up the IPv4 Sockets?",
+    "Term_Definition": "1. Server IP address 2. Protocol 3. Server Application Port Number",
+    "Term_ID": 1
+  },
+  {
+    "Concept_ID": 19,
+    "Term_Name": "Client side: What makes up the IPv4 Sockets?",
+    "Term_Definition": "1. Client IP address 2. Protocol 3. Client Port Number",
+    "Term_ID": 1
+  },
+  {
+    "Concept_ID": 20,
+    "Term_Name": "Non-ephemeral ports",
+    "Term_Definition": "Permanent- 0-1023. Usually on server or service",
+    "Term_ID": 1
+  },
+  {
+    "Concept_ID": 21,
+    "Term_Name": "Ephemeral",
+    "Term_Definition": "Temporary: ports 1024-65535",
+    "Term_ID": 1
+  },
+  {
+    "Concept_ID": 22,
+    "Term_Name": "NIC",
+    "Term_Definition": "Network Interface Card",
+    "Term_ID": 2
+  },
+  {
+    "Concept_ID": 23,
+    "Term_Name": "Repeater",
+    "Term_Definition": "Extend wireless network reach",
+    "Term_ID": 2
+  },
+  {
+    "Concept_ID": 24,
+    "Term_Name": "Hub",
+    "Term_Definition": "Multi-port repreater",
+    "Term_ID": 2
+  },
+  {
+    "Concept_ID": 25,
+    "Term_Name": "Bridge",
+    "Term_Definition": "Connect hubbed networks together",
+    "Term_ID": 2
+  },
+  {
+    "Concept_ID": 26,
+    "Term_Name": "Switches",
+    "Term_Definition": "Networking hardware that connects devices on a network by using packet switching",
+    "Term_ID": 2
+  },
+  {
+    "Concept_ID": 27,
+    "Term_Name": "Routers",
+    "Term_Definition": "Networking hardware that connects networks based on IP addresses.",
+    "Term_ID": 2
+  },
+  {
+    "Concept_ID": 28,
+    "Term_Name": "WAP",
+    "Term_Definition": "A single device that allows wifi devices to connect to a wired network",
+    "Term_ID": 2
+  },
+  {
+    "Concept_ID": 29,
+    "Term_Name": "Firewalls",
+    "Term_Definition": "Manage the control of traffic flows into network",
+    "Term_ID": 2
+  },
+  {
+    "Concept_ID": 30,
+    "Term_Name": "Cable Modems",
+    "Term_Definition": "Allow the connection to a broadband network",
+    "Term_ID": 2
+  },
+  {
+    "Concept_ID": 31,
+    "Term_Name": "DSL Modems",
+    "Term_Definition": "Digital subscriber line. Uses same wire for telephone network",
+    "Term_ID": 2
+  },
+  {
+    "Concept_ID": 32,
+    "Term_Name": "Patch Panels",
+    "Term_Definition": "A set of RJ-45 connectors that connect computers to network",
+    "Term_ID": 2
+  },
+  {
+    "Concept_ID": 33,
+    "Term_Name": "Power over Ethernet",
+    "Term_Definition": "Power is provided on the Ethernet cable",
+    "Term_ID": 2
+  },
+  {
+    "Concept_ID": 34,
+    "Term_Name": "Ethernet over Power",
+    "Term_Definition": "Extending ethernet network using power cables",
+    "Term_ID": 2
+  },
+  {
+    "Concept_ID": 35,
+    "Term_Name": "OSI Model",
+    "Term_Definition": "Open Systems Interconnection model",
+    "Term_ID": 2
+  },
+  {
+    "Concept_ID": 36,
+    "Term_Name": "802.11",
+    "Term_Definition": "standars from 802.11: a,b,g,n,ac--> working on either 2.4 or 5 GHZ Frequencies",
+    "Term_ID": 9
+  },
+  {
+    "Concept_ID": 37,
+    "Term_Name": "IPS",
+    "Term_Definition": "Intrusion Prevention System",
+    "Term_ID": 4
+  },
+  {
+    "Concept_ID": 38,
+    "Term_Name": "IDS",
+    "Term_Definition": "Intrusion Detection System",
+    "Term_ID": 4
+  },
+  {
+    "Concept_ID": 39,
+    "Term_Name": "SOHO",
+    "Term_Definition": "Small office/home office",
+    "Term_ID": 3
+  },
+  {
+    "Concept_ID": 40,
+    "Term_Name": "NFC",
+    "Term_Definition": "Near Field CCommunication",
+    "Term_ID": 9
+  },
+  {
+    "Concept_ID": 41,
+    "Term_Name": "Z-wave",
+    "Term_Definition": "Proprietary home automation networking/wireless standard",
+    "Term_ID": 9
+  },
+  {
+    "Concept_ID": 42,
+    "Term_Name": "TCP/IP model",
+    "Term_Definition": "Model that is a stack that contains 4 vertical layers.",
+    "Term_ID": 2
+  },
+  {
+    "Concept_ID": 43,
+    "Term_Name": "VPN",
+    "Term_Definition": "Virtual Private Network",
+    "Term_ID": 5
+  },
+  {
+    "Concept_ID": 44,
+    "Term_Name": "ISDN",
+    "Term_Definition": "Integrated Services for Digital Networks",
+    "Term_ID": 6
+  },
+  {
+    "Concept_ID": 45,
+    "Term_Name": "DSL",
+    "Term_Definition": "Digital Subscriber Line",
+    "Term_ID": 6
+  },
+  {
+    "Concept_ID": 46,
+    "Term_Name": "Cable broadband",
+    "Term_Definition": "Uses the same connection as cable TV",
+    "Term_ID": 6
+  },
+  {
+    "Concept_ID": 47,
+    "Term_Name": "Fiber-optic Internet",
+    "Term_Definition": "Internet that is designed to connect to a twisted-pair Ethernet LAN using an optical network terminal.",
+    "Term_ID": 6
+  },
+  {
+    "Concept_ID": 48,
+    "Term_Name": "Binary",
+    "Term_Definition": "Base 2 numeral system",
+    "Term_ID": 5
+  },
+  {
+    "Concept_ID": 49,
+    "Term_Name": "DNS",
+    "Term_Definition": "Domain Name System",
+    "Term_ID": 5
+  },
+  {
+    "Concept_ID": 50,
+    "Term_Name": "Troubleshooting wireless connections",
+    "Term_Definition": "Wireless connections have unique properties due to their physical and connection protocols. Take into account: signal strength, network congestions, network security settings, network configuration.",
+    "Term_ID": 10
+  },
+  {
+    "Tools_ID": 1,
+    "Terms": "What is a wireless analyzer?",
+    "Definitions": "Can be either a hardware or software tool. It reads available wireless networks and their channels and signal strengths.",
+    "Concept_ID": 50
+  },
+  {
+    "Tools_ID": 2,
+    "Terms": "What is a punch down block?",
+    "Definitions": "When using a telecommunications closet, all network and telephone cables are terminated to a common distribution frame called a punch down block",
+    "Concept_ID": 50
+  },
+  {
+    "Tools_ID": 3,
+    "Terms": "What is a patch panel?",
+    "Definitions": "A device housing a row of modular jacks in front and a corresponding punch down block in the rear.",
+    "Concept_ID": 50
+  },
+  {
+    "Tools_ID": 4,
+    "Terms": "List some termination tools.",
+    "Definitions": "1. Snips: cuts cables to length. 2. Wire stripper: cuts the jacket from the cable. 3. Crimper: clamps a modular jack onto the wire ends of a cable. 4. Punch down tool: Places wire on punch down blocks by using a spring loaded blade to push the wire in place, pierce the insulation, and cut excess length in a single motion.",
+    "Concept_ID": 50
+  },
+  {
+    "Tools_ID": 12,
+    "Terms": "What tool would you use to find the end of a cable?",
+    "Definitions": "Tone generator and probe",
+    "Concept_ID": 50
+  },
+  {
+    "Tools_ID": 13,
+    "Terms": "What tool would you use to test is the networking cable is well connected?",
+    "Definitions": "A cable tester.",
+    "Concept_ID": 50
+  },
+  {
+    "Tools_ID": 14,
+    "Terms": "What tool imitates a computer being connected to a network?",
+    "Definitions": "Loop back plug",
+    "Concept_ID": 50
+  },
+  {
+    "Tools_ID": 15,
+    "Terms": "What tools can check to map wires?",
+    "Definitions": "Cable tester (best tool), multimeter, toner probe",
+    "Concept_ID": 50
+  },
+  {
+    "Tools_ID": 5,
+    "Terms": "Name some cable testing tools.",
+    "Definitions": "1. Multimeter 2. Toner Probe 3. Cable Tester 4. Time-domain reflectometer 5. Cable Certifier 6. Loopback plug",
+    "Concept_ID": 50
+  },
+  {
+    "Tools_ID": 6,
+    "Terms": "What is a loopback plug?",
+    "Definitions": "A device that connects transmit and receive pins on a connector by letting it plug into itself and allowing diagnostic tests.",
+    "Concept_ID": 50
+  },
+  {
+    "Tools_ID": 7,
+    "Terms": "What is a cable certifier?",
+    "Definitions": "A device that can perform advanced tests on cable quality and certify that it meets standards",
+    "Concept_ID": 50
+  },
+  {
+    "Tools_ID": 8,
+    "Terms": "What is a time-domain reflectometer?",
+    "Definitions": "A cable tester that measures signal reflections along a cable to find breaks, shorts, or minor flaws and estimate their location",
+    "Concept_ID": 50
+  },
+  {
+    "Tools_ID": 9,
+    "Terms": "What is a cable tester?",
+    "Definitions": "A cable testing tool that measures conductivity and resistance to detect breaks and shorts. Some also can check for cable length, noise level, and detect what device is on the other end of an active cable.",
+    "Concept_ID": 50
+  },
+  {
+    "Tools_ID": 10,
+    "Terms": "What is a multimeter?",
+    "Definitions": "Electronic tester which can measure resistance, current, or voltage between two points. Can be used to check if data racks are grounded.",
+    "Concept_ID": 50
+  },
+  {
+    "Tools_ID": 11,
+    "Terms": "What is a Toner Probe?",
+    "Definitions": "connectivity testing tool that can be used to trace and identify a wire along its entire length",
+    "Concept_ID": 50
+  },
+  {
+    "Protocol_ID": 1,
+    "Terms": "What frequency does 802.11ac use?",
+    "Definitions": "5GHZ",
+    "Concept_ID": 36
+  },
+  {
+    "Protocol_ID": 2,
+    "Terms": "What frequency does 802.11a use?",
+    "Definitions": "5GHZ",
+    "Concept_ID": 36
+  },
+  {
+    "Protocol_ID": 3,
+    "Terms": "What frequency does 802.11b use?",
+    "Definitions": "2.4GHZ",
+    "Concept_ID": 36
+  },
+  {
+    "Protocol_ID": 4,
+    "Terms": "What frequency does 802.11g use?",
+    "Definitions": "2.4GHZ",
+    "Concept_ID": 36
+  },
+  {
+    "Protocol_ID": 5,
+    "Terms": "What frequency does 802.11n use?",
+    "Definitions": "5 and or 2.5GHZ",
+    "Concept_ID": 36
+  },
+  {
+    "Protocol_ID": 6,
+    "Terms": "What speeds does 802.11ac offer?",
+    "Definitions": "Up to 6.9 Gbit/s",
+    "Concept_ID": 36
+  },
+  {
+    "Protocol_ID": 7,
+    "Terms": "What speeds does 802.11a offer?",
+    "Definitions": "54 Mbit/s",
+    "Concept_ID": 36
+  },
+  {
+    "Protocol_ID": 8,
+    "Terms": "What speeds does 802.11b offer?",
+    "Definitions": "11Mbit/s",
+    "Concept_ID": 36
+  },
+  {
+    "Protocol_ID": 9,
+    "Terms": "What speeds does 802.11n offer?",
+    "Definitions": "600 Mbit/s",
+    "Concept_ID": 36
+  },
+  {
+    "Protocol_ID": 10,
+    "Terms": "What speeds does 802.11g offer?",
+    "Definitions": "54 Mbit/s",
+    "Concept_ID": 36
+  },
+  {
+    "Protocol_ID": 11,
+    "Terms": "What frequency does NFC opperate on?",
+    "Definitions": "13.5MHZ",
+    "Concept_ID": 40
+  },
+  {
+    "Protocol_ID": 12,
+    "Terms": "How does NFC work?",
+    "Definitions": "Allows wireless devices to establish radio communications by tapping them together/bringing them in close proximity (10cm or less).",
+    "Concept_ID": 40
+  },
+  {
+    "Protocol_ID": 13,
+    "Terms": "What is Z wave used for?",
+    "Definitions": "Often used for interoperable monitoring and remote control of home automation systems",
+    "Concept_ID": 41
+  },
+  {
+    "Protocol_ID": 14,
+    "Terms": "How does Z wave compare to Bluetooth?",
+    "Definitions": "It has a longer range than Bluetooth. Also uses less power than WiFi",
+    "Concept_ID": 41
+  },
+  {
+    "Protocol_ID": 15,
+    "Terms": "TCP/IP -> what components are stateful and stateless?",
+    "Definitions": "TCP is stateful and IP is stateless.",
+    "Concept_ID": 17
+  },
+  {
+    "Protocol_ID": 16,
+    "Terms": "Give an example of a stateful protocol",
+    "Definitions": "FTP, IMAP, POP",
+    "Concept_ID": 17
+  },
+  {
+    "Protocol_ID": 17,
+    "Terms": "Give an example of a stateless protocol",
+    "Definitions": "HTTP, UDP, DNS",
+    "Concept_ID": 17
+  },
+  {
+    "Protocol_ID": 18,
+    "Terms": "What are some differences between UDP and TCP?",
+    "Definitions": "UDP is unreliable, connectionless, fast, and lightweight. UDP uses datagrams while TCP uses segments.",
+    "Concept_ID": 16
+  },
+  {
+    "Protocol_ID": 19,
+    "Terms": "How many channels are on the 2.4 GHZ bands?",
+    "Definitions": "This band is broken up into 14 channels.",
+    "Concept_ID": 36
+  },
+  {
+    "Protocol_ID": 20,
+    "Terms": "How are the 14 channels on the 2.4 GHZ band arranged?",
+    "Definitions": "Each channel is 5 MHz apart except for the 14th channel which is 12 MHz apart.",
+    "Concept_ID": 36
+  },
+  {
+    "Protocol_ID": 21,
+    "Terms": "In the US, what channels of the 2.4GHz band are available?",
+    "Definitions": "Channels 1-11 are available in the US",
+    "Concept_ID": 36
+  },
+  {
+    "Protocol_ID": 22,
+    "Terms": "On a 2.4GHz band, using what channels minimizes interferences the most?",
+    "Definitions": "Channels 1, 6, and 11.",
+    "Concept_ID": 36
+  },
+  {
+    "Protocol_ID": 23,
+    "Terms": "What is spread spectrum?",
+    "Definitions": "Breaks the WiFi transmissions into a large number of sub-channels on nearby frequencies.",
+    "Concept_ID": 36
+  },
+  {
+    "Protocol_ID": 24,
+    "Terms": "What does MIMO stand for?",
+    "Definitions": "Multiple Input and Multiple Output",
+    "Concept_ID": 36
+  },
+  {
+    "Protocol_ID": 25,
+    "Terms": "How does MIMO function?",
+    "Definitions": "Uses multiple antennas to simultaneously transmit and receive separate data streams on the same channel.",
+    "Concept_ID": 36
+  },
+  {
+    "Protocol_ID": 26,
+    "Terms": "What is a Cloud Based Network controller?",
+    "Definitions": "Cloud based controller which allows multiple locations to share configuration data and function as a single larger network.",
+    "Concept_ID": 36
+  },
+  {
+    "Protocol_ID": 27,
+    "Terms": "Uses 80MHZ channels, MIMO antennas, and beamforming technology.",
+    "Definitions": "802.11ac",
+    "Concept_ID": 36
+  },
+  {
+    "Protocol_ID": 28,
+    "Terms": "Uses MIMO and 40MHz chanels via channel bonding to boost speeds.",
+    "Definitions": "802.11n",
+    "Concept_ID": 36
+  }
+]
