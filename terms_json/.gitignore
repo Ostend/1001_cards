@@ -261,4 +261,4 @@ cython_debug/
 
 
 # my files
-.data/
+data/
