@@ -3,8 +3,8 @@ const app = express();
 const path = require("path");
 const axios = require("axios");
 const methodOverride = require("method-override");
-const data = require("./Hardware_Cables.json");
-const data1 = require("./Network_Services.json");
+const data = require("./data/Hardware_Cables.json");
+const data1 = require("./data/Network_Services.json");
 
 //middleware
 app.use(express.urlencoded({ extended: true })); //NEED for parsing request body. but only set up to work with form data.

@@ -258,3 +258,7 @@ dmypy.json
 cython_debug/
 
 .DS_Store
+
+
+# my files
+.data/
