@@ -1,4 +1,4 @@
-https://loving-franklin-bd1e40.netlify.app/
+https://compterms.netlify.app/
 
 # Comptia a+ 1001 Flash Cards </br>
 Hardware and Networking </br>
