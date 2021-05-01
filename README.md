@@ -1,6 +1,7 @@
 https://compterms.netlify.app/
 
 # Comptia a+ 1001 Flash Cards </br>
+### Express backend, React front end </br>
 Hardware and Networking </br>
 This flash card set has over 300 concepts in the Hardware and Networking modules. </br>
 They are terms/definitions I wrote myself (no copy paste from any other person's work). </br>
